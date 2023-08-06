@@ -1,0 +1,53 @@
+.contacto {
+  padding: 3rem 10vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--palo-rosa);
+}
+
+.contacto__contenedor {
+  width: 17vw;
+}
+
+.contacto__link {
+  margin-bottom: 1.2rem;
+}
+
+.contacto__formulario {
+  width: 38vw;
+}
+
+.contacto__mensaje {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.contacto__input {
+  width: 100%;
+  background: var(--blanco-puro);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contacto__textarea {
+  width: 100%;
+  background: var(--blanco-puro);
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contacto__boton {
+  display: inline-block;
+  border: 1px solid var(--rojo);
+  padding: 0.7rem;
+  background: var(--rojo);
+  color: var(--blanco-puro);
+  transition: all 0.1s ease-in-out;
+}
+
+.contacto__boton:active {
+  background: var(--blanco-puro);
+  color: var(--rojo);
+}

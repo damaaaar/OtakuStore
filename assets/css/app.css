@@ -1,0 +1,13 @@
+:root {
+  --inter: "Inter", sans-serif;
+  --blanco-puro: #ffffff;
+  --blanco: #f5f5f5;
+  --gris: #464646;
+  --rojo: #f44538;
+  --anaranjado: #f28005;
+}
+
+body {
+  font-family: var(--inter);
+  background-color: var(--blanco);
+}

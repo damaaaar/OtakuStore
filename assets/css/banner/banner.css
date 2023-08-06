@@ -1,0 +1,36 @@
+.banner {
+  position: relative;
+}
+
+.banner__contenido {
+  padding: 0 10vw;
+  position: absolute;
+  top: 60%;
+}
+
+.banner__titulo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--gris);
+  margin-bottom: 1.2rem;
+}
+
+.banner__promocion {
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.banner__boton {
+  display: inline-block;
+  border: 1px solid var(--rojo);
+  padding: 0.6rem;
+  background-color: var(--rojo);
+  color: var(--blanco-puro);
+  transition: all 0.2s ease-in-out;
+}
+
+.banner__boton:active {
+  border: 1px solid var(--rojo);
+  color: var(--rojo);
+  background-color: var(--blanco-puro);
+}

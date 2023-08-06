@@ -1,0 +1,64 @@
+.header {
+  padding: 1.5rem 10vw;
+  background: var(--blanco-puro);
+  display: flex;
+  align-items: center;
+}
+
+.header__contenido {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  width: 9rem;
+}
+
+.header__formulario {
+  position: relative;
+}
+
+.header__buscador {
+  margin-left: 1.8rem;
+  background: var(--blanco);
+  border-radius: 20px;
+  padding: 0.7rem;
+  width: 20rem;
+  padding-right: 40px;
+}
+
+.header__buscador:focus {
+  outline: none;
+}
+
+.header__buscador::placeholder {
+  font-size: small;
+}
+
+.header__boton {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.header__contenido--login {
+  justify-content: end;
+}
+
+.header__login {
+  border: 1px solid var(--rojo);
+  padding: 0.5rem 3rem;
+  color: var(--rojo);
+  transition: all 0.2s ease-in-out;
+}
+
+.header__login:active {
+  border: 1px solid var(--blanco-puro);
+  color: var(--blanco-puro);
+  background: var(--rojo);
+}

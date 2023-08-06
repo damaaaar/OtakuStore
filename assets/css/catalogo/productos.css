@@ -1,0 +1,27 @@
+.catalogo__secciones {
+  margin-bottom: 3rem;
+}
+.catalogo__productos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.catalogo__producto {
+  width: 15vw;
+}
+
+.catalogo__nombre {
+  font-size: small;
+}
+
+.catalogo__precio {
+  font-size: small;
+  font-weight: bold;
+}
+
+.catalogo__informacion {
+  font-size: small;
+  font-weight: bold;
+  color: var(--rojo);
+}

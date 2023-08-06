@@ -1,0 +1,46 @@
+.footer {
+  padding: 1.5rem 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__texto {
+  font-size: small;
+}
+
+.footer__texto span {
+  font-weight: bold;
+}
+
+.footer__contacto {
+  margin-top: 0.5rem;
+  width: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__icono {
+  width: 2rem;
+  height: 2rem;
+}
+
+.footer__icono {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer__icono--linkedin {
+  background-image: url(../../iconos/linkedin.svg);
+}
+
+.footer__icono--github {
+  background-image: url(../../iconos/github.svg);
+}
+
+.footer__icono--portafolio {
+  background-image: url(../../iconos/portafolio.svg);
+}

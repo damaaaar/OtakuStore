@@ -6,7 +6,13 @@
 }
 
 .contacto__contenedor {
-  width: 17vw;
+  width: 42%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacto__img {
+  width: 15vw;
 }
 
 .contacto__link {
@@ -14,7 +20,7 @@
 }
 
 .contacto__formulario {
-  width: 38vw;
+  width: 50%;
 }
 
 .contacto__mensaje {
@@ -36,6 +42,7 @@
   margin-bottom: 0.5rem;
   padding: 1rem;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  resize: none;
 }
 
 .contacto__boton {
@@ -50,4 +57,24 @@
 .contacto__boton:active {
   background: var(--blanco-puro);
   color: var(--rojo);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contacto {
+    padding: 2rem 4vw;
+  }
+
+  .contacto__contenedor {
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacto__contenedor img {
+    margin-bottom: 1.3rem;
+  }
+
+  .contacto__formulario {
+    width: 65%;
+  }
 }

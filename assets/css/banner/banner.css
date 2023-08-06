@@ -34,3 +34,14 @@
   color: var(--rojo);
   background-color: var(--blanco-puro);
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .banner__contenido {
+    padding: 0 4vw;
+    top: 45%;
+  }
+
+  .banner__promocion {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.9);
+  }
+}

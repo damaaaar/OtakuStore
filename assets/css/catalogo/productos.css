@@ -8,11 +8,14 @@
 }
 
 .catalogo__producto {
-  width: 15vw;
+  width: 12vw;
 }
 
 .catalogo__nombre {
   font-size: small;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .catalogo__precio {
@@ -24,4 +27,18 @@
   font-size: small;
   font-weight: bold;
   color: var(--rojo);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .catalogo__secciones {
+    margin-bottom: 4rem;
+  }
+
+  .catalogo__producto:nth-child(n + 5) {
+    display: none;
+  }
+
+  .catalogo__producto {
+    width: 20vw;
+  }
 }
